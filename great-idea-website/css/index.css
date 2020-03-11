@@ -70,18 +70,28 @@ body{
 /* Navigation Styles */
 nav {
 	position: fixed;
-	background: #fff;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-image: linear-gradient(to right, #990078, #dd8f00, #67d305, #0080db);
 	width: 100%;
+	padding-left: 8%;
 }
 
 nav a{
-	color: grey;
+	color: #fff;
 	text-decoration: none;
 	width: 10%;
+	padding: 2% 0;
+	text-align: center;
 }
 
-nav img {
-	margin-left: 10%;
+nav a:hover {
+	background: grey;
+}
+
+.logo {
+	margin-left: 12%;
 }
 
 nav a, nav img {
